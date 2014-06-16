@@ -1,0 +1,66 @@
+---
+title       : Slidify Presentation
+subtitle    : Coursera's Developing Data Products
+author      : Fturrado
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+---
+
+## Slide 1: Welcome
+
+In the next slides we will show some features of the slidify R package.
+
+For all the examples we will use the iris dataset.
+
+The main goal of this app is to classify new instances of data using a Random Forest Classifier trained over the original dataset.
+
+
+
+--- .class #id 
+
+## Slide 2: Data
+
+The iris dataset contains 150 obervations of 5 features: Sepal.Width, Sepal.Length, Petal.Width, Petal.Length and Species. 
+
+```{r,echo=FALSE}
+summary(iris);
+```
+
+--- {tpl: twocol}
+
+## Slide 3: Feature Overview
+
+In this slide you will find an overview of the numeric features.
+
+*** {name: left}
+
+- Sepal.Width
+- Sepal.Length
+- Petal.Width
+- Petal.Length
+
+*** {name: right}
+
+```{r,echo=FALSE}
+par(mfrow=c(2,2))
+hist(iris$Sepal.Width, col = 'blue', border = 'white')
+hist(iris$Sepal.Length, col = 'blue', border = 'white')
+hist(iris$Petal.Width, col = 'blue', border = 'white')
+hist(iris$Petal.Length, col = 'blue', border = 'white')
+```
+
+--- 
+
+## Slide 4 : Thanks
+
+Please enjoy the app at the shinyapp's site:
+
+https://fturrado.shinyapps.io/dataprod/
+
+
+
+
