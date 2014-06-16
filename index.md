@@ -10,7 +10,7 @@ widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 ---
 
-## Slide 1: Welcome
+## Slide 2: Welcome
 
 In the next slides we will show some features of the slidify R package.
 
@@ -22,7 +22,7 @@ The main goal of this app is to classify new instances of data using a Random Fo
 
 --- .class #id 
 
-## Slide 2: Data
+## Slide 3: Data
 
 The iris dataset contains 150 obervations of 5 features: Sepal.Width, Sepal.Length, Petal.Width, Petal.Length and Species. 
 
@@ -46,7 +46,7 @@ The iris dataset contains 150 obervations of 5 features: Sepal.Width, Sepal.Leng
 
 --- {tpl: twocol}
 
-## Slide 3: Feature Overview
+## Slide 4: Feature Overview
 
 In this slide you will find an overview of the numeric features.
 
@@ -63,7 +63,7 @@ In this slide you will find an overview of the numeric features.
 
 --- 
 
-## Slide 4 : Thanks
+## Slide 5 : Thanks
 
 Please enjoy the app at the shinyapp's site:
 
